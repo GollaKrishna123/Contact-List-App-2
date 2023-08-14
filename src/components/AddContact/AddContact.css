@@ -1,0 +1,29 @@
+.add-contact h2{
+    margin: 1vh 13vw;
+    font-size: 25px;
+    font-weight: 600;
+}
+.inputForm label{
+    display: block;
+    margin-bottom: 5px;
+}
+.inputForm{
+    margin: 2vh 13vw;
+}
+.inputForm input{
+    padding-right: 63vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.add-btn{
+    margin: 0 13vw;
+    padding: 10px 23px;
+    /* background-color: rgb(13, 109, 141); */
+    /* background-color: rgb(113, 57, 152); */
+    background-color: rgb(28, 124, 162);
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}

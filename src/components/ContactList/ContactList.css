@@ -1,0 +1,20 @@
+.contact-list h2{
+    font-weight: 600;
+    padding-bottom: 18px;
+    padding-top: 5px;
+    font-size: 25px;
+    border-bottom: 2px solid lavender;
+    margin: 2vh 13vw;
+    display: flex;
+    justify-content: space-between;
+}
+.add-contact-btn{
+    background-color: rgb(28, 124, 162);
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 530;
+    cursor: pointer;
+}

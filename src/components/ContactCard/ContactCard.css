@@ -1,0 +1,36 @@
+.contact-card{
+    border-top: 2px solid lavender;
+    margin-top: 15px;
+    margin: 2vh 13vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lavender;
+}
+.trash{
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact-card-details{
+    padding: 20px 0px;
+    display: flex;
+}
+.contact-email{
+    font-weight: 500;
+    font-size: 15px;
+    color:blue;
+}
+.contact-name{
+    font-weight: 650;
+    font-size: 15px;
+}
+.user-image img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.user-image{
+    display: flex;
+    align-items: center;
+}

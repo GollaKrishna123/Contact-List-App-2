@@ -1,0 +1,10 @@
+.Header{
+    text-align: center;
+    margin: 3px 0px;
+}
+.Header h2{
+    font-weight: 600;
+    padding-bottom: 8px;
+    font-size: 25px;
+    border-bottom: 2px solid lavender;
+}
