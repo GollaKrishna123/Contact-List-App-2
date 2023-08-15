@@ -8,9 +8,9 @@ const ContactDetail = () => {
     const location = useLocation();
     const contactDetails = location.state;
     const {id , name ,email} = contactDetails;
-    console.log(id,name,email,"total");
+    // console.log(id,name,email,"total");
   return (
-    <div className="contact-details">
+    <div className="contact-details-container">
         <div className="contact-details-card">
             <img src={user} alt="user"/>
             <h3 className="contact-detail-name">{name}</h3>

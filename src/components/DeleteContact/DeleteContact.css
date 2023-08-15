@@ -1,0 +1,46 @@
+.delete-contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    justify-content: center;
+}
+.delete-contact-card{
+    background-color: whitesmoke;
+    /* padding: 60px; */
+    border-radius: 20px;
+}
+.heading-1{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 700;
+}
+.heading-2{
+    text-align: center;
+    padding: 0px 20px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lavender;
+    font-weight: 500;
+}
+.buttons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.buttons button{
+    padding: 5px 10px;
+    margin-top: 20px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.cancel-btn{
+    margin-right: 30px;
+    background-color: green;
+}
+.OK-btn{
+    background-color: red;
+}

@@ -1,4 +1,4 @@
-.contact-details{
+.contact-details-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@
     width: 25vw;
     border-radius: 5px;
 }
-.contact-details img{
+.contact-details-card img{
     width: 100%;
 }
 .contact-detail-name{

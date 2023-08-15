@@ -2,12 +2,10 @@ import React, { useState } from 'react'
 import './AddContact.css';
 import { v4 as uuid } from 'uuid';
 import {useNavigate} from 'react-router-dom'
-const AddContact = ({contacts,setContacts}) => {
+const AddContact = ({contacts,setContacts,name,setName,email,setEmail}) => {
   const navigate = useNavigate();
-  const [name,setName] = useState("");
-  const [email,setEmail] = useState("");
 
-  const addHandler = (e)=>{
+  const addContactHandler = (e)=>{
     e.preventDefault();
     if(name==="" || email===""){
       alert("All the Fields are mandatory")
@@ -21,9 +19,9 @@ const AddContact = ({contacts,setContacts}) => {
   }
 
   return (
-    <div className='add-contact'>
+    <div className='add-contact-container'>
         <h2>Add Contact</h2>
-        <form onSubmit={addHandler}>
+        <form onSubmit={addContactHandler}>
             <div className='inputForm'>
                 <label>Name</label>
                 <input type="text" name="name" placeholder='Name' value={name} onChange={(e)=>setName(e.target.value)}/>

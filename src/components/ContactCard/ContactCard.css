@@ -1,4 +1,4 @@
-.contact-card{
+.contact-card-container{
     border-top: 2px solid lavender;
     margin-top: 15px;
     margin: 2vh 13vw;
@@ -7,10 +7,11 @@
     align-items: center;
     border-bottom: 2px solid lavender;
 }
-.trash{
+.trash-icon{
     color: red;
     font-size: 18px;
     cursor: pointer;
+    margin-right: 5px;
 }
 .contact-card-details{
     padding: 20px 0px;
@@ -33,4 +34,10 @@
 .user-image{
     display: flex;
     align-items: center;
+}
+.edit-icon{
+    color: blue;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
 }
