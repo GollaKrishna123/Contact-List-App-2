@@ -36,7 +36,6 @@ const App = () => {
 
   return (
     <div>
-      {/* <Router> */}
         <Header />
         <Routes>
           <Route
@@ -58,9 +57,8 @@ const App = () => {
               <DeleteContact deleteContactHandler={deleteContactHandler} />
             }
           />
-          <Route path="/edit" element={<EditContact contacts={contacts} setContacts={setContacts} setName={setName} setEmail={setEmail} />}/>
+          <Route path="/edit" element={<EditContact contacts={contacts} setContacts={setContacts} />}/>
         </Routes>
-      {/* </Router> */}
     </div>
   );
 };

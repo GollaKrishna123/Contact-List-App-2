@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import "./EditContact.css";
 import { v4 as uuid } from "uuid";
 import { useLocation, useNavigate } from "react-router-dom";
-const EditContact = ({ contacts, setContacts, setName, setEmail }) => {
+const EditContact = ({
+  contacts,
+  setContacts,
+}) => {
   const location = useLocation();
   const contact = location.state;
-//   const currentContact = location.state;
-  const {id,name,email} = contact;
+  const { id, name : initialName, email :initialEmail } = contact;
+  const [name, setName] = useState(initialName);
+  const [email, setEmail] = useState(initialEmail);
   const navigate = useNavigate();
 
   const updateContactHandler = (e) => {
@@ -25,7 +29,6 @@ const EditContact = ({ contacts, setContacts, setName, setEmail }) => {
       }
     });
     setContacts(updatedContacts);
-    console.log(contacts);
     navigate("/");
   };
 
@@ -41,8 +44,6 @@ const EditContact = ({ contacts, setContacts, setName, setEmail }) => {
             placeholder="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            
-           
           />
         </div>
         <div className="inputForm">
@@ -53,8 +54,6 @@ const EditContact = ({ contacts, setContacts, setName, setEmail }) => {
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            
-            
           />
         </div>
         <button className="add-btn">Update</button>

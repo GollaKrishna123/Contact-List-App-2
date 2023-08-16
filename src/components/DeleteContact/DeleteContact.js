@@ -5,7 +5,6 @@ import "./DeleteContact.css";
 const DeleteContact = ({ deleteContactHandler }) => {
   const location = useLocation();
   const { id, name, email } = location.state;
-  console.log(name, "name", email, "email");
   return (
     <div className="delete-contact-container">
       <div className="delete-contact-card">
