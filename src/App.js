@@ -4,7 +4,6 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import AddContact from "./components/AddContact/AddContact";
 import ContactList from "./components/ContactList/ContactList";
-import mockData from "./mockData";
 import ContactDetail from "./components/ContactDetail/ContactDetail";
 import DeleteContact from "./components/DeleteContact/DeleteContact";
 import { useNavigate } from "react-router-dom";
