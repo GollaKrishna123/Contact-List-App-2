@@ -2,13 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     height: 100vh;
     justify-content: center;
 }
 .delete-contact-card{
     background-color: whitesmoke;
-    /* padding: 60px; */
     border-radius: 20px;
 }
 .heading-1{

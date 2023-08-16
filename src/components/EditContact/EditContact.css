@@ -15,12 +15,11 @@
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
+    outline: none;
 }
 .add-btn{
     margin: 0 13vw;
     padding: 10px 23px;
-    /* background-color: rgb(13, 109, 141); */
-    /* background-color: rgb(113, 57, 152); */
     background-color: rgb(28, 124, 162);
     color: white;
     border-width: 0px;

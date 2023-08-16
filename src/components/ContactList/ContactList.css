@@ -1,9 +1,7 @@
-.contact-list h2{
+.contact-list{
     font-weight: 600;
-    padding-bottom: 18px;
+    padding-bottom: 10px;
     padding-top: 5px;
-    font-size: 25px;
-    border-bottom: 2px solid lavender;
     margin: 2vh 13vw;
     display: flex;
     justify-content: space-between;
@@ -17,4 +15,14 @@
     font-size: 15px;
     font-weight: 530;
     cursor: pointer;
+}
+.contact-list h2{
+    font-weight: 625;
+}
+.SearchBar{
+    margin: 2vh 12.8vw;
+}
+.contacts h2{
+    font-weight: 625;
+    text-align: center;
 }
